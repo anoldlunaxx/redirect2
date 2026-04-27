@@ -5,8 +5,8 @@ from flask import Flask, request, redirect, send_file, jsonify
 
 app = Flask(__name__)
 
-RECAPTCHA_SECRET = os.environ.get("RECAPTCHA_SECRET", "6LdlvxgsAAAAABGy-q2Np5u3sLUzxW0ttO0dIUVZ")
-TURNSTILE_SECRET = os.environ.get("TURNSTILE_SECRET", "0x4AAAAAACDBg6DnZtgtFikCtdp4c3YIh5I")
+RECAPTCHA_SECRET = os.environ.get("RECAPTCHA_SECRET", "6LcyucwsAAAAAJYG1vcyT9yRbEZ6sYusFeC_L3ls")
+TURNSTILE_SECRET = os.environ.get("TURNSTILE_SECRET", "0x4AAAAAADEOt_EGc4Xz8xDP2FnJAiZ4fDs")
 
 @app.route("/")
 def index():
